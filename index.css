@@ -2,41 +2,50 @@ header {
   background: linear-gradient(rgb(97, 103, 124), rgb(225, 210, 238));
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
   font-family: monospace;
   font-size: 24px;
   font-style: oblique;
 }
+h1 {
+  background-color: #a076ba;
+}
 
 body p {
   font-size: 24px;
   text-align: center;
-  color: hsl(201, 76%, 24%);
-  padding-block: 60px;
+  color: #343639;
+  padding-block: 80px;
   border-radius: 15px;
-  background: linear-gradient(#9af4ea, rgb(214, 213, 216)) ;
+  background: linear-gradient(rgb(97, 103, 124), rgb(225, 210, 238)) ;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
-  margin-bottom: 15;
   font-family: monospace;
   transition: background-color 0.3s ease;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 8px rgb(85, 7, 231);
+  border: 2px solid #7944ca5d;
+  border-radius: 8px;
+  
 }
 
 body p:hover {
   background-color: #7571c7;
   transform: scale(1.1);
-
-
 }
+body {
+  background-color: #54687b;
+}
+
 h2 {
   font-size: 28px;
   text-align: center;
-  color: #34495e;
+  color: #c6cfd6;
   font-family: monospace;
+  background-color: rgb(97, 103, 124);
+  border-radius: 15px;
 }
 img {
   width: 180px;
@@ -45,7 +54,7 @@ img {
   
 }
 nav {
-  background-color: #177186;
+  background-color: #0d73ab;
   border-radius: 15px;
 }
 
@@ -72,7 +81,7 @@ nav a:hover {
   border-bottom: 2px solid #ecf0f1;
 }
 section {
-  background-color: #ea94f4f9;
+  background: linear-gradient(rgb(97, 103, 124), rgb(225, 210, 238));
   color: #2c3e50;
   margin: 5px;
   padding: 20px;
