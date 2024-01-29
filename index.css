@@ -1,24 +1,36 @@
 header {
-  background: linear-gradient(rgb(28, 110, 218), rgb(127, 59, 184));
+  background: linear-gradient(rgb(97, 103, 124), rgb(225, 210, 238));
   color: #fff;
   text-align: center;
   padding: 20px;
   border-radius: 15px;
   font-family: monospace;
+  font-size: 24px;
+  font-style: oblique;
 }
 
 body p {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: hsl(201, 76%, 24%);
   padding-block: 60px;
   border-radius: 15px;
-  background-color: #68c2c1;
-  margin-left: 15px;
+  background: linear-gradient(#9af4ea, rgb(214, 213, 216)) ;
+  margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 15;
   font-family: monospace;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgb(85, 7, 231);
+}
+
+body p:hover {
+  background-color: #7571c7;
+  transform: scale(1.1);
+
+
 }
 h2 {
   font-size: 28px;
@@ -60,19 +72,19 @@ nav a:hover {
   border-bottom: 2px solid #ecf0f1;
 }
 section {
-  background-color: #91369b8c;
+  background-color: #ea94f4f9;
   color: #2c3e50;
   margin: 5px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgb(28, 110, 218);
+  box-shadow: 0 4px 8px rgb(85, 7, 231);
   margin-bottom: 20px;
   text-align: center;
   transition: background-color 0.3s ease;
 }
 
 section:hover {
-  background-color: #c92b97;
+  background-color: #a076ba;
 }
 
 section h3 {
@@ -80,15 +92,15 @@ section h3 {
 }
 
 section aside {
-  border: 2px solid #f60505cf;
+  border: 2px solid #7944ca5d;
   border-radius: 8px;
   padding: 15px;
-  background-color: #ecf0f1;
+  background-color: #c790d77f;
   transition: background-color 0.3s ease;
 }
 
 section:hover aside {
-  background-color: #d4e6f1;
+  background-color: #9af4ea;
 }
 
 section aside h3 {
@@ -129,9 +141,11 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
+  font-family: monospace;
 }
 
 footer strong {
   color: #fafafa;
   font-size: 1.2em;
+  font-family: monospace;
 }
