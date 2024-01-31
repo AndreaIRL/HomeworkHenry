@@ -10,6 +10,11 @@ header {
 }
 h1 {
   background-color: #a076ba;
+  padding-block: 20px;
+  font-size: 50px;
+  margin-block: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 body p {
@@ -46,6 +51,7 @@ h2 {
   font-family: monospace;
   background-color: rgb(97, 103, 124);
   border-radius: 15px;
+  border-width: 460px;
 }
 img {
   width: 180px;
